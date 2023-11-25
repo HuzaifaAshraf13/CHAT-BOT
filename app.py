@@ -8,7 +8,7 @@ app = Flask(__name__)
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 # If no API key found in environment variable, use the one provided in code
 if openai_api_key is None:
-    openai_api_key = ""
+    openai_api_key = "PUT YOUR KEY HERE"
 else:
     print("Using API key from environment variable")
 
